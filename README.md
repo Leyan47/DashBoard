@@ -48,6 +48,8 @@ python -m venv venv
 `python dashboard_op.py`
 
 程式啟動後，你將會看到類似以下的訊息：
-```Dash is running on http://127.0.0.1:8051/```
+```
+Dash is running on http://127.0.0.1:8051/
+```
 
 打開你的網頁瀏覽器並訪問 `http://127.0.0.1:8051`，即可看到儀表板。
