@@ -22,12 +22,16 @@ cd your-repository-name
 
 2.建立並啟動虛擬環境 (建議)
 - macOS / Linux
-```python3 -m venv venv
-source venv/bin/activate```
+```
+python3 -m venv venv
+source venv/bin/activate
+```
 
 - Windows
-```python -m venv venv
-.\venv\Scripts\activate```
+```
+python -m venv venv
+.\venv\Scripts\activate
+```
 
 安裝相依套件
 使用 pip 並透過 requirements.txt 檔案安裝所有必要的套件。
