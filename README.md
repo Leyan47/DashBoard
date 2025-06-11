@@ -14,8 +14,11 @@
 請依照以下步驟來設定並運行此專案。
 
 1.複製專案
-```git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name```
+
+```
+git clone https://github.com/your-username/your-repository-name.git
+cd your-repository-name
+```
 
 2.建立並啟動虛擬環境 (建議)
 - macOS / Linux
