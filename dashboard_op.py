@@ -1,5 +1,4 @@
 import pandas as pd
-import pyodbc
 from dash import Dash, dcc, html, Input, Output
 import plotly.graph_objs as go
 from urllib import parse
