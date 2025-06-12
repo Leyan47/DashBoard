@@ -4,7 +4,7 @@ import plotly.graph_objs as go
 from urllib import parse
 import openpyxl
 
-df = pd.read_excel('fakeDate.xlsx')
+df = pd.read_excel('fakeData.xlsx')
 
 # 取得所有可選的週日期區間字串（作為 Dropdown 選項）
 date_ranges = sorted(df['週日期區間'].unique())
