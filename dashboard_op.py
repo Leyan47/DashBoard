@@ -132,5 +132,5 @@ def update_download_link(figure):
     return data_uri
 
 # --- 啟動伺服器 ---
-if __name__ == '__main__':
-    app.run(debug=True, port=8051)
+# if __name__ == '__main__':
+#    app.run(debug=True, port=8051)
