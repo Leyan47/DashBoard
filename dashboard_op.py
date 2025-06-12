@@ -9,8 +9,9 @@ df = pd.read_excel('fakeDate.xlsx')
 
 # 取得所有可選的週日期區間字串（作為 Dropdown 選項）
 date_ranges = sorted(df['週日期區間'].unique())
-numeric_cols = ['帶看組數', '紅燈帶看', '非紅燈帶看',
-                '龍騰_開價', '龍騰_ad', '龍騰_買方預算上限']
+numeric_cols = ['op', 'Red_op', 'Unred_op',
+                'Dop_sellprice', 'Dop_ad', 'Dop_BBUL']
+					
 
 app = Dash(__name__)
 
