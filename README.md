@@ -1,6 +1,7 @@
 # KPI DashBoard
 
 這是一個使用 Python Dash 框架建立的互動式儀表板專案。旨在展示如何將業務數據（如帶看次數、廣告成效等）可視化，並提供多維度的篩選功能，幫助使用者快速洞察趨勢。
+本專案已成功部署至 Google Cloud Platform (GCP)，提供 24/7 線上即時互動。
 為了保護隱私並方便分享，本專案使用的數據 (fakeData.xlsx) 均為經過假名化處理的虛構資料，其數值與趨勢不代表任何真實業務情況。
 
 ### 功能
@@ -12,9 +13,18 @@
 
 ### 儀表板預覽
 
-點擊下方圖片即可訪問線上的互動式儀表板！(待添加)
+點擊下方圖片即可訪問線上的互動式儀表板！
 
-[picDemo.png](http://35.208.189.160:8051)
+**[<img src="picDemo.png" alt="儀表板預覽" width="600"/>](http://35.208.189.160:8051)**
+
+### 🛠️ 技術棧
+
+*   **儀錶板框架**: [Dash](https://dash.plotly.com/)
+*   **數據處理**: [Pandas](https://pandas.pydata.org/)
+*   **圖表繪製**: [Plotly](https://plotly.com/python/)
+*   **WSGI 伺服器**: [Waitress](https://docs.pylonsproject.org/projects/waitress/en/stable/)
+*   **雲端平台**: [Google Cloud Platform (GCP)](https://cloud.google.com/)
+
 
 ### 安裝與設定
 請依照以下步驟來設定並運行此專案。
